@@ -6,117 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <title>Frontend Mentor | QR code component</title>
+  <title>Portfolio Website</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/4b73b92351.js" crossorigin="anonymous"></script>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Outfit', sans-serif;
-    }
-
-    html,
-    body {
-      height: 100%;
-      width: 100%
-    }
-
-    .container {
-      background-color: hsl(212, 45%, 89%);
-      height: 100vh;
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      row-gap: 20px;
-    }
-
-    .box {
-      padding: 15px;
-      background-color: #fff;
-      width: 270px;
-      /* min-height: 200px; */
-      border-radius: 15px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-
-    }
-
-    /* descendent selector */
-    .box img {
-      box-shadow: 0px 0px 0 5px #244a8cac, 0px 0px 0 10px#244a8c74,0px 0px 0 10px#244a8c22;
-      border-radius: 50%;
-      width: 35%;
-
-    }
-
-    .details {
-      padding: 14px 12px;
-    }
-
-    .details h1,
-    .details p {
-      text-align: center;
-    }
-
-    .details h1 {
-      font-size: 23px;
-      margin-top: 4px;
-      margin-bottom: 7px;
-    }
-
-    h1,
-    h2,
-    h3 {
-      color: hsl(218, 44%, 22%);
-    }
-
-    .details p {
-      margin-top: 7px;
-      color: hsl(220, 15%, 55%);
-      font-size: 14px;
-    }
-    .socials{
-      width: 100%;
-    }
-    .icons{
-      width: 100%;
-      margin-top: 30px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-    }
-    .icon{
-      width: 40px;
-      aspect-ratio: 1/1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      color: rgba(0, 0, 0, 0.867);
-      background-color: rgb(255, 255, 255);
-      border: 2px solid rgba(128, 128, 128, 0.222);
-    }
-    i{
-      color: rgba(0, 0, 0, 0.867);
-      transition: all .3s linear;
-    }
-    .icon:hover {
-      background-color: rgb(222, 222, 222);
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="container">
+    <div class="box">
+      <div class="nav">
+        <ul>
+          <div class="left">
+          <li>Home</li>
+          <li>Projects</li>
+        </div>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
     <div class="box">
       <img src="author.jpg" alt="">
       <div class="details">
