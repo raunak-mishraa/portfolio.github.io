@@ -37,7 +37,7 @@
 
   /* descendent selector */
   .box img {
-    box-shadow: 0px 0px 0 5px #244a8cac, 0px 0px 0 10px#244a8c74,0px 0px 0 10px#244a8c22;
+    box-shadow: 0px 0px 0 5px #014b9665, 0px 0px 0 10px#244a8c47,0px 0px 0 10px#244a8c15;
     border-radius: 50%;
     width: 35%;
 
@@ -96,7 +96,7 @@
     transition: all .3s linear;
   }
   .icon:hover {
-    background-color: rgb(222, 222, 222);
+    background-color: #D6E2F0;
   }
   .nav{
     width: 100%;
@@ -112,10 +112,11 @@
   ul .left{
     padding: 4px 10px;
     display: flex;
+    column-gap: 8px;
   }
   ul li{
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 6px;
     font-weight: 500;
     color:hsl(218, 44%, 22%) ;
     list-style: none;
